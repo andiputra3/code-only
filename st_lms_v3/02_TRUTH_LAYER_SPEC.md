@@ -1,6 +1,6 @@
 # ST-LMS v3: Truth Layer Specification
 
-Truth Layer tidak boleh menyimpan data yang bisa dihitung ulang secara deterministik (seperti distance atau slope). Ia hanya menyimpan fakta dasar dan relasi.
+Truth Layer tidak boleh menyimpan data yang bisa dihitung ulang secara deterministik (seperti distance, slope, atau duration). Ia hanya menyimpan fakta dasar, relasi, dan history pergeseran.
 
 ## 1. Time ID Format
 Semua objek harus memiliki referensi waktu berdasarkan WIB.
